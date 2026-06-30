@@ -49,7 +49,7 @@ def voice():
 
     gather = Gather(
         input="speech",
-        action="https://insurance-voice-bot-n6hf-b0kgyspsy.vercel.app//process",
+        action="https://vercel-jdd66ecnx-nikhilpatil100253-sudos-projects.vercel.app/process",
         method="POST",
         speech_timeout="auto",
         language="en-IN"
@@ -133,7 +133,7 @@ def process():
 
     gather = Gather(
         input="speech",
-        action="https://insurance-voice-bot-n6hf-b0kgyspsy.vercel.app//process",
+        action="https://vercel-jdd66ecnx-nikhilpatil100253-sudos-projects.vercel.app/process",
         method="POST",
         speech_timeout="auto",
         language="en-IN"

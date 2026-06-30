@@ -14,9 +14,9 @@ CUSTOMER_NUMBER = "+919867005139"
 # IMPORTANT
 # Replace with your Render URL after deployment
 # Example:
-# https://insurance-voice-bot-n6hf-b0kgyspsy.vercel.app//voice
+# https://vercel-jdd66ecnx-nikhilpatil100253-sudos-projects.vercel.app/voice
 # ----------------------------
-VOICE_URL = "https://insurance-voice-bot-n6hf-b0kgyspsy.vercel.app//voice"
+VOICE_URL = "https://vercel-jdd66ecnx-nikhilpatil100253-sudos-projects.vercel.app/voice"
 # VOICE_URL = "insurance-voice-bot-n6hf-b0kgyspsy.vercel.app"
 
 client = Client(
@@ -27,8 +27,8 @@ client = Client(
 call = client.calls.create(
     to=CUSTOMER_NUMBER,
     from_=TWILIO_PHONE_NUMBER,
-    url="https://insurance-voice-bot-n6hf-b0kgyspsy.vercel.app//voice",
-    status_callback="https://insurance-voice-bot-n6hf-b0kgyspsy.vercel.app//status",
+    url="https://vercel-jdd66ecnx-nikhilpatil100253-sudos-projects.vercel.app/voice",
+    status_callback="https://vercel-jdd66ecnx-nikhilpatil100253-sudos-projects.vercel.app/status",
     status_callback_event=[
         "initiated",
         "ringing",
