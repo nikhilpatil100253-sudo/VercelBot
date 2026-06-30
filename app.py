@@ -249,5 +249,3 @@ if __name__ == "__main__":
 
 
 
-  git config --global user.email "nikhil.patil100253@gmail.com"
-  git config --global user.name "Nikhil"
